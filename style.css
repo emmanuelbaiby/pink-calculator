@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #F3CCF3;
+    height: 100vh;
+}
+h1{
+    display: block;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Amiri', serif;
+    font-family: 'Gaegu', sans-serif;
+    background-color: white;
+    
+}
+
+
+.centered-element {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 450px; 
+    margin: auto; 
+    background-color: white;
+    margin-top: 110px;
+    margin-bottom: 110px;
+    border-radius: 40px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+}
+
+
+
+footer{
+    font-family: 'Amiri', serif;
+    font-family: 'Gaegu', sans-serif;
+    padding-right: 10px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.display {
+    display: flex;
+    align-items: end;
+    background-color: white;
+    margin: 0;
+    text-align: right;
+    width: 100%;
+    height: 100%;
+    border-radius: 40px 40px 0 0;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+button {
+    flex: 1;
+    padding: 15px;
+    font-size: 25px;
+    cursor: pointer;
+    border: none;
+    background-color: #E9A8F2;
+    transition: background-color 0.3s;
+    border: 1px solid #F3CCF3;
+    font-family: 'Amiri', serif;
+    font-family: 'Gaegu', sans-serif;
+}
+
+button:hover{
+    color: #DC84F3;
+
+}
+
+.item1{
+    flex-grow: 3;
+    border-radius: 0 0 40px 0;
+
+}
+
+h2{
+    font-size: 44px;
+    padding-left: 10px;
+}
+
+.side1{
+    border-radius: 0 0 0 40px;
+
+}
